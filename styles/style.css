@@ -1,0 +1,110 @@
+@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
+
+body, h1, h2, h3, h4, h5, h6, p, input, label, form, div{
+    font-family: 'Open Sans Hebrew', 'arial', sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    width: 990px;
+    margin: 0 auto;
+    padding: 25px 0;
+}
+
+.header {
+    background:#949381;
+}
+
+.section1 {
+   background: #efefef;
+}
+
+.section2 {
+    background: #e0dede;
+}
+
+.section3 {
+    background:#949381;
+    height: auto;
+    padding: 20px 0 75px 0;
+}
+.section4 {
+    background:#efefef;
+}
+footer {
+    background: #2c2c2c;
+}
+.article1 {
+    width: 320px;
+    height: 200px;
+    overflow: hidden;
+    background: white;
+    padding: 10px;
+    display: inline-block;
+}
+
+form {
+ position: relative;
+    margin: 10px 0 0 0;
+}
+
+.form {
+    width: 440px;
+}
+
+label {
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    padding: 3px 0 0 0;
+    width: 105px;
+}
+input {
+    margin: 7px 0;
+    display: inline-block;
+    font-family: 'Open Sans Hebrew', 'arial', sans-serif;
+    color: #4d4d4d;
+    font-size: 16px;
+    padding: 2px 20px 2px 0;
+    width: 330px;
+    height: 36px;
+    border-radius: 2px;
+    border: none;
+}
+.button {
+    border-bottom: 2px solid #2c2c2c;
+    background: #4d4d4d;
+    color: white;
+    border-radius: 2px;
+    position: absolute;
+    right: 110px;
+}
+
+.border {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 10px 0 ;
+    margin: 10px 0 0 0;
+}
+
+
+.medium-white-text {
+    color: white;
+    font-size: 16px;
+}
+.small-white-text {
+    color: white;
+    font-size: 12px;
+}
+.yellow-text {
+    color: #ffdd0f;
+    font-size:  30px;
+    margin: 0 0 15px 0;
+}

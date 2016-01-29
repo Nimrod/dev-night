@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="heb">
+<html lang="heb" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <title>DEV SHOTS</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 </head>
 
 
 <body>
     <main>
 
-    <header>
+    <header class="header">
+        <div class="wrapper">
          <nav>
              <ul>
                  <li>ניווט</li>
@@ -27,10 +29,11 @@
 אירוע פיתוח בראש טוב<br>
              לדבר על טכנולוגיות מהחזית ואתגרים שווים עם גיבורי יום-יום כמוכם
               </h1>
+            </div>
     </header>
 
-    <section>
-
+    <section class="section1">
+        <div class="wrapper">
            <p>
             6 הרצאות קצרות ומרתקות
           </p>
@@ -38,7 +41,7 @@
 15 דקות לכל הרצאה
         </p>
 
-        <article>
+        <article class="article1">
             <img>
 
             <h2>
@@ -54,7 +57,7 @@
             </p>
         </article>
 
-        <article>
+        <article class="article1">
             <img>
 
             <h2>
@@ -70,7 +73,7 @@
             </p>
         </article>
 
-        <article>
+        <article class="article1">
             <img>
 
             <h2>
@@ -85,11 +88,12 @@
                 , נונסטי קלובר בריקנה סטום, לפריקך תצטריק לרטי.
             </p>
         </article>
-
+        </div>
     </section>
 
 
-    <section>
+    <section class="section2" >
+        <div class="wrapper">
         <article>
             <p>
                 אז איפה שמים את האוטו ועוד כמה פרטים חשובים
@@ -120,7 +124,6 @@
                 <li>תחנה מרכזית</li>
 
 
-
             </ol>
 
         </article>
@@ -132,35 +135,38 @@
 
         </article>
 
-
+        </div>
     </section>
 
-    <section>
-        <p>    הרשמה    </p>
-        <p>    הכניסה היא חינם אבל מספר המקומות מצומצם    </p>
-        <p>     נשמח אם תרשמו רק אם אתם באמת מתכוונים להגיע   </p>
-        <p>   כל הפרטים האישיים ישארו חסויים ואנחנו לא נעביר אותם לאף אחד     </p>
+    <section class="section3">
+        <div class="wrapper ">
+            <article class="form">
+                <p class="yellow-text">    הרשמה    </p>
+                <p class="medium-white-text">    הכניסה היא חינם אבל מספר המקומות מצומצם    </p>
+                <p class="small-white-text">     נשמח אם תרשמו רק אם אתם באמת מתכוונים להגיע   </p>
+                <p class="border small-white-text">   כל הפרטים האישיים ישארו חסויים ואנחנו לא נעביר אותם לאף אחד     </p>
 
-        <article>
-            <form>
-                <label for="first">שם מלא</label>
-                <input type="text"  placeholder="פרטי וגם משפחה" name="first" id="first"><br><br>
-                <label for="job">תפקיד</label>
-                <input type="text"  placeholder="מה אתם עושים ביומיום" name="job" id="job"><br><br>
-                <label for="organization">ארגון</label>
-                <input type="text"  placeholder="מי משלם לכם משכורת" name="organization" id="organization"><br><br>
-                <label for="phone">מס' טלפון</label>
-                <input type="text"  placeholder="או סלולרי, לנו לא אכפת" name="phone number" id="phone"><br><br>
-                <label for="friends">יש חברים?</label>
-                <input type="text"  placeholder="יש לי מלא אבל אני בא לבד" name="add" id="friends"><br><br>
-                <input type="submit" value="זהו, שלח אותי!">
-            </form>
-         </article>
-
+                <article>
+                    <form>
+                        <label for="first">שם מלא</label>
+                        <input type="text"  placeholder="פרטי וגם משפחה" name="first" id="first"><br>
+                        <label for="job">תפקיד</label>
+                        <input type="text"  placeholder="מה אתם עושים ביומיום" name="job" id="job"><br>
+                        <label for="organization">ארגון</label>
+                        <input type="text"  placeholder="מי משלם לכם משכורת" name="organization" id="organization"><br>
+                        <label for="phone">מס' טלפון</label>
+                        <input type="text"  placeholder="או סלולרי, לנו לא אכפת" name="phone number" id="phone"><br>
+                        <label for="friends">יש חברים?</label>
+                        <input type="text"  placeholder="יש לי מלא אבל אני בא לבד" name="add" id="friends"><br>
+                        <input class="button" type="submit" value="זהו, שלח אותי!">
+                    </form>
+                </article>
+            </article>
+        </div>
     </section>
 
-    <section>
-
+    <section class="section4">
+        <div class="wrapper">
         <p> מידע שימושי</p>
 
         <article>
@@ -185,10 +191,11 @@
         <h3>קורס HTML5</h3>
         <p> אספנו בשבילכם את רשימת הספרים המומלצים לפני שתתחילו</p>
     </article>
+        </div>
     </section>
 
     <footer>
-
+        <div class="wrapper">
         <p>קצת עלינו</p>
         <img> <!--logo netcraft-->
         <article>
@@ -219,6 +226,7 @@
             <p>כל הזכויות שמורות לנטקראפט בלה, בלה, בלה... 2016</p>
             <img> <!--logo netcraft-->
         </article>
+        </div>
     </footer>
 
 
