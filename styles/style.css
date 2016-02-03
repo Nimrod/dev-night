@@ -1,70 +1,168 @@
-@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);
-
-body, h1, h2, h3, h4, h5, h6, p, input, label, form, div{
-    font-family: 'Open Sans Hebrew', 'arial', sans-serif;
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/*  GENERAL BODY */
 
 section{
     width: 100%;
     height: auto;
+    padding: 30px 0;
 }
-
 .wrapper {
     width: 990px;
     margin: 0 auto;
     padding: 25px 0;
 }
+.relative{
+     position: relative;
+ }
+
+
+/* HEADER */
 
 .header {
     background:#949381;
 }
 
+
+/* SECTION 1*/
 .section1 {
-   background: #efefef;
+    background: #efefef;
 }
 
+.title1 {
+    background: #d0eae9;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.title2 {
+    font-size: 30px;
+    line-height: 40px;
+    display: inline-block;
+    float: right;
+    /* margin: 0 0 0 560px; */
+}
+
+.title3 {
+    display: inline-block;
+    font-size: 14px;
+    padding: 17px 0 0 0;
+    float: left;
+}
+
+.article1 {
+    width: 265px;
+    height: 200px;
+    overflow: hidden;
+    background: white;
+    padding: 0 20px;
+    display: inline-block;
+    border-radius: 40px;
+    margin: 0 0 0 32px;
+    font-size: 14px;
+}
+
+.article1:nth-of-type(3) {
+    margin: 0;
+}
+.border2 {
+    border-top: 1px dotted darkgrey;
+    border-bottom: 1px dotted darkgrey;
+    padding: 30px 0;
+    margin: 10px 0 30px 0;
+}
+.height{
+    height:40px;
+}
+
+/* SECTION 2*/
 .section2 {
     background: #e0dede;
 }
+.width {
+    width: 480px;
+}
+.title4 {
+    font-size: 30px;
+    line-height: 40px;
+    display: inline-block;
+    margin: 0 0 20px 0;
+}
+.title5 {
+    display: inline-block;
+}
+.title6{
+    display: inline-block;
+    margin: 0 5px 0 60px;
+    font-size: 47px;
+    line-height: 40px;
+    font-weight: 600;
+    color: grey;
+}
+.title7{
+    display: inline-block;
+    margin: 0 5px 0 0;
+    font-size: 47px;
+    line-height: 40px;
+    font-weight: 600;
+    color: grey;
+}
+
+.small-grey-text {
+    font-size: 12px;
+}
+.border3 {
+    border-top: 1px dotted darkgrey;
+    border-bottom: 1px dotted darkgrey;
+    padding: 20px 0;
+    margin: 15px 0 30px 0;
+}
+ol {
+    list-style-type: decimal;
+    list-style-position:inside;
+}
+li {
+    line-height: 24px;
+}
+.parking {
+    display: inline-block;
+    width: 220px;
+    margin: 0  0 0 20px;
+    vertical-align: top;
+
+}
+.bus {
+    display: inline-block;
+    width: 235px;
+    vertical-align: top;
+}
+
+.border4 {
+    border-bottom: 1px dotted darkgrey;
+    margin: 0 0 10px 0;
+    padding: 0 0 10px 0;
+    font-size: 20px;
+    font-weight:500;
+}
+
+/* SECTION 3*/
 
 .section3 {
     background:#949381;
     height: auto;
     padding: 20px 0 75px 0;
 }
-.section4 {
-    background:#efefef;
-}
-footer {
-    background: #2c2c2c;
-}
-.article1 {
-    width: 320px;
-    height: 200px;
-    overflow: hidden;
-    background: white;
-    padding: 10px;
-    display: inline-block;
-}
-
-form {
- position: relative;
-    margin: 10px 0 0 0;
-}
-
 .form {
-    width: 440px;
-}
+     width: 440px;
+ }
 
 label {
     display: inline-block;
     font-size: 16px;
     color: white;
     padding: 3px 0 0 0;
-    width: 105px;
+    width: 85px;
 }
 input {
     margin: 7px 0;
@@ -83,18 +181,14 @@ input {
     background: #4d4d4d;
     color: white;
     border-radius: 2px;
+    width: 350px;
     position: absolute;
-    right: 110px;
+    right: 90px;
 }
-
-.border {
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
-    padding: 10px 0 ;
+form {
+    position: relative;
     margin: 10px 0 0 0;
 }
-
-
 .medium-white-text {
     color: white;
     font-size: 16px;
@@ -108,3 +202,25 @@ input {
     font-size:  30px;
     margin: 0 0 15px 0;
 }
+.border {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 10px 0 ;
+    margin: 10px 0 0 0;
+}
+
+/* SECTION 4*/
+.section4 {
+    background:#efefef;
+}
+
+
+/* FOOTER */
+footer {
+    background: #2c2c2c;
+}
+
+
+
+
+
