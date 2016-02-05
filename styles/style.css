@@ -18,13 +18,42 @@ section{
 /* HEADER */
 
 .header {
-    background:#949381;
+    background: #efefef;
+    background-image: url("../images/header.jpg");
+    height: 661px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
+nav {
+    position: absolute;
+    left: 0;
+    top: 90px;
+
+    background: white;
+}
+nav li {
+    padding: 10px 20px;
+    border-top: 1px dotted darkgrey;
+    border-bottom: 1px dotted darkgrey;
+}
+nav li:hover {
+    background: #FEDD1E;
+}
+nav li:first-child {
+    border-top: none;
+    background: #282828;
+    color: white;
+    font-weight: 600;
+}
+nav li:last-child {
+    border-bottom: none;
+}
 
 /* SECTION 1*/
 .section1 {
-    background: #efefef;
+    background: #eeeeee;
+    padding: 0;
 }
 
 .title1 {
@@ -213,7 +242,17 @@ form {
 .section4 {
     background:#efefef;
 }
+.title8 {
+    font-size: 30px;
+    line-height: 40px;
+}
+.article3 {
+    display: inline-block;
+    padding: 0 15px;
+ width: 19%;
+    box-sizing: border-box;
 
+}
 
 /* FOOTER */
 footer {
