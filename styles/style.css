@@ -16,6 +16,11 @@ section{
 
 
 /* HEADER */
+.wrapper1 {
+    width: 990px;
+    margin: 0 auto;
+
+}
 
 .header {
     background: #efefef;
@@ -48,6 +53,40 @@ nav li:first-child {
 }
 nav li:last-child {
     border-bottom: none;
+}
+
+h1 {
+    display: inline-block;
+    width: 400px;
+}
+.title9 {
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 40px 0 0 0;
+}
+.title10 {
+    display: block;
+    width: 350px;
+    color: white;
+    font-size: 65px;
+    line-height: 60px;
+    font-weight: 400;
+    margin: 100px 0 0 30px;
+    text-shadow: 1px 0 3px rgba(0, 0, 0, 0.6);
+}
+.title11 {
+    display: block;
+    width: 300px;
+    color: black;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 30px 0 0 0;
+    line-height: 35px;
+}
+.logo{
+    margin: 0 350px 0 0;
+    vertical-align: top;
 }
 
 /* SECTION 1*/
